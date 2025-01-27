@@ -1,0 +1,44 @@
+.Poster {
+    background-color: black;
+    color: white;
+    font-family: "Belleza", serif;
+    text-align: center;
+    padding: 1em;
+}
+
+.ContactUs {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 1em;
+    border-radius: 1em;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+}
+
+.PosterHeading {
+    font-size: 2em
+}
+
+.quality {
+    display: flex;
+    justify-content: center;
+    gap: 1.1em;
+    font-size: 1.2em;
+}
+
+.quality p {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+@media (max-width: 600px) {
+    .quality {
+        font-size: 12px;
+    }
+
+    .PosterHeading {
+        font-size: 1em;
+    }
+}

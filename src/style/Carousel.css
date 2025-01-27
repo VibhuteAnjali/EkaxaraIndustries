@@ -1,0 +1,44 @@
+.carouselFlexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    gap: 2em;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.carouselContent {
+    text-align: center;
+    padding: 1em;
+    font-family: "Belleza", serif;
+    font-size: 1.4em;
+}
+
+.headline {
+    text-align: center;
+    font-size: 1.7em;
+    font-family: "Belleza", serif;
+}
+
+.carouselImg img {
+    width: 50vw;
+}
+
+.arrow {
+    background-color: white;
+    border: none;
+}
+
+@media (max-width: 600px) {
+    .carouselContent {
+        font-size: 10px;
+    }
+
+    .carouselImg img {
+        width: 80vw;
+    }
+    .carouselFlexContainer {gap: 0em;}
+}

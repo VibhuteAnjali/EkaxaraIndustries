@@ -1,0 +1,48 @@
+.box {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    padding: 1em;
+    border-radius: 1em 1em 0em 0em;
+    margin-top: 2EM;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.VMimg {
+    width: 100%;
+    border-radius: 1em 1em 0em 0em;
+}
+
+.img {
+    width: 30vw;
+}
+
+.textContent {
+    font-family: "Montserrat", serif;
+    line-height: 1.2;
+}
+
+.boldTEXT {
+    font-family: "Belleza", serif;
+    font-family: "Belleza", serif;
+    FONT-SIZE: 1.4EM;
+    MARGIN: 0EM;
+}
+
+
+@media (max-width: 600px) {
+    .box {
+        width: 80vw;
+    }
+    .flexRow {
+        flex-direction: column;
+
+    }
+}

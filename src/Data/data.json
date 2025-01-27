@@ -1,0 +1,24 @@
+{
+    "carouselData": [
+        {
+            "id": 0,
+            "heading": " UHMWPE profile component, components & cut to size components",
+            "img": "./images/UHMWPComponents.png"
+        },
+        {
+            "id": 1,
+            "heading": "Paper Phenolic",
+            "img": "./images/Carousel2.png"
+        },
+        {
+            "id": 2,
+            "heading": "Cotton Phenolic ",
+            "img": "./images/Carousel3.1.png"
+        },
+        {
+            "id": 3,
+            "heading": "Machining / Fabrication Facility ",
+            "img": "./images/Carousel4.png"
+        }
+    ]
+}

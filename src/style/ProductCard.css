@@ -1,0 +1,16 @@
+.productInfo{
+    margin:0.2em;
+    font-family: "Montserrat", serif;
+}
+.productInfo p{
+    margin: 0.04em;
+    font-size: 14px;
+}
+.productName{
+    font-family: "Belleza", serif;
+    font-size: 1.2em;
+}
+.cardImg{
+    width: 87%;
+    height: 70%;
+}

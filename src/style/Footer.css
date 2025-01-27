@@ -1,0 +1,25 @@
+.FooterLinks{
+    display: flex;
+    flex-direction: column;
+}
+.MainFooterBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterLinks p{
+    margin: 0.4em;
+    font-family: "Belleza", serif;
+    font-size: 1.2em;
+}
+.FooterLinks a {
+    margin: 0.4em;
+    font-family: "Belleza", serif;
+    font-size: 1.2em;
+}
+.logo{
+    text-align: center;
+}
+.footer{
+    padding: 1em;
+}

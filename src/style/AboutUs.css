@@ -1,0 +1,43 @@
+#AboutUs {
+    text-align: center;
+}
+
+
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+}
+
+.AboutImg {
+    width: 46%;
+}
+
+.AboutImg img {
+    width: 95%;
+}
+
+.infoAboutUs {
+    width: 34%;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .infoAboutUs {
+        width: 100%;
+    
+        font-size: 15px;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+    }
+    .headline{
+        margin: 1em;
+    margin-top: 3em;
+    }
+}

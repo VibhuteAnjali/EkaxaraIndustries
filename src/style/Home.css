@@ -1,0 +1,48 @@
+.Home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.tagline {
+    font-family: "Belleza", serif;
+    font-size: 3em;
+}
+
+.tagline p {
+    margin-bottom: 0;
+}
+
+.subTagline {
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+}
+
+.MainExplore {
+    font-size: 15px;
+    background: black;
+    color: white;
+    padding: 1em 2em;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 0.5em;
+    margin-left: 12px;
+}
+.MainExplore a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .Home{
+        width: 100vw;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .HomeImg img{
+        width: 95vw;
+    }
+
+}
