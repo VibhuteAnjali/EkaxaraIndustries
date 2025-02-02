@@ -4,6 +4,15 @@ import "../style/Carousel.css"
 import data from "../Data/data.json";
 export default function Carousel() {
     const [visibleIndex, setVisibleIndex] = useState(0);
+    const totalSlides = data.carouselData.length;
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setVisibleIndex((prevIndex) => (prevIndex + 1) % totalSlides);
+        }, 5000);
+
+        return () => clearInterval(interval);
+    }, []);
     return (
         <div>
             <p className='headline'>Product Gallery</p>
