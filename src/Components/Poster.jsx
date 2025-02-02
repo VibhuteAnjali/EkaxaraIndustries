@@ -9,6 +9,7 @@ export default function Poster() {
                 <p><img src={tick} alt="tick" />  Superior Quality</p>
                 <p><img src={tick} alt="tick" />  Ethical and transparent Business Policy</p>
                 <p><img src={tick} alt="tick" />  Cutting-edge solutions </p>
+                <p><img src={tick} alt="tick" />  Customized solutions As per requirements </p>
             </div>
         </div>
     )
