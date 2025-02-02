@@ -16,7 +16,7 @@ export default function Carousel() {
     return (
         <div>
             <p className='headline'>Product Gallery</p>
-            <div className='carouselFlexContainer'>
+            <div className='carouselFlexContainer' style={{ transform: `translateX(-${visibleIndex * 100}%)` }}>
                 <div>
                     <button disabled={visibleIndex === 0 ? true : false} className='arrow'>
                         <img src={`https://img.icons8.com/?size=40&id=9438&format=png&color=${visibleIndex === 0 ? "EBEBEB" : "000000"}`} alt="arrow" className='pointer' onClick={() => setVisibleIndex(visibleIndex - 1)} />
