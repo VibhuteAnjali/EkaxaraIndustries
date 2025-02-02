@@ -31,15 +31,7 @@
     background-color: white;
     border: none;
 }
-.carouselImage {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.carouselTrack {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
+
 @media (max-width: 600px) {
     .carouselContent {
         font-size: 10px;
