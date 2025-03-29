@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import Card from './ProductCard';
+import FoodProduct from './FoodProduct';
 import "../style/Product.css";
 import fibreGlass from "../img/fiberglass-epoxy-sheets.jpeg";
 import fibreGlass2 from "../img/FR-4.webp";
@@ -107,7 +108,7 @@ export default function Product() {
           <div>
             <div className='Subheadline'>2. Food Supply</div>
                <div className='rowFlex' >
-                            <Card {...FoodProducts} key={0} />
+                            <FoodProduct name="Jaggery" img=Jagerry  />
                     </div>
           </div>
         </div>
