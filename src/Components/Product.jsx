@@ -108,7 +108,7 @@ export default function Product() {
           <div>
             <div className='Subheadline'>2. Food Supply</div>
                <div className='rowFlex' >
-                            <FoodProduct name="Jaggery" img=Jagerry  />
+                            <FoodProduct name="Jaggery" img={Jagerry}  />
                     </div>
           </div>
         </div>
