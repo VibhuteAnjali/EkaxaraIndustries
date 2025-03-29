@@ -107,7 +107,6 @@ export default function Product() {
             <div className='Subheadline'>2. Food Supply</div>
                <div className='rowFlex' >
                             <Card {...FoodProducts} key={0} />
-                        ))
                     </div>
           </div>
         </div>
