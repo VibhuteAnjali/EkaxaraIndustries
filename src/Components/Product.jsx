@@ -22,6 +22,7 @@ import industrialFiberGlass from "../img/industrialFiberGlass.png";
 import TeflonSheet from "../img/TeflonSheet.png";
 import UHMWPE from "../img/UHMWPE.png";
 import SMCsheet from "../img/SMCsheet.png";
+import Jagerry from "../img/Jagerry.jpg";
 
 const products = [
     { name: "Fiberglass Epoxy Sheet", material: "Fiber glass", size: "1220mm x 2440mm, 1mtr x 2 mtr, 1 mtr x 3 mtr", img: fibreGlass },
@@ -45,9 +46,9 @@ const products = [
     { name: "UHMWPE Sheet", size: "1x2 mtr, 1x3 mtr", img: UHMWPE },
     { name: "SMC Sheet & Chequered Plate", material: "Polyester", size: "1 mm to 25 mm", img: SMCsheet }
 ];
-const jaggeryImg="https://i0.wp.com/florafoods.in/wp-content/uploads/2019/07/Kolhapur-bella-01-.png?fit=800%2C800&ssl=1";
+
 const FoodProducts=[
-    { name: "Jaggery", img: jaggeryImg}
+    { name: "Jaggery", img: Jagerry}
 ];
 export default function Product() {
     const [show, setShow] = useState(false);
