@@ -47,7 +47,7 @@ const products = [
 ];
 const jaggeryImg="https://i0.wp.com/florafoods.in/wp-content/uploads/2019/07/Kolhapur-bella-01-.png?fit=800%2C800&ssl=1";
 const FoodProducts=[
-    { name: "jaggery", material: "Fiber glass", size: "1220mm x 2440mm, 1mtr x 2 mtr, 1 mtr x 3 mtr", img: jaggeryImg}
+    { name: "Jaggery", img: jaggeryImg}
 ];
 export default function Product() {
     const [show, setShow] = useState(false);
