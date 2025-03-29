@@ -1,79 +1,4 @@
-// import React, { useState } from 'react'
-// import Card from './ProductCard'
-// import "../style/Product.css"
-// import fibreGlass from "../img/fiberglass-epoxy-sheets.jpeg"
-// import fibreGlass2 from "../img/FR-4.webp"
-// import g10 from "../img/G10.png"
-// import g11 from "../img/G11.png"
-// import yellowEpoxy from "../img/yellowepoxy.jpg"
-// import GP03 from "../img/GPO3.jpg"
-// import FB from "../img/FiberglassSheetFRPSheet.png"
-// import Phenolic from "../img/Phenolic.png"
-// import Hylam from "../img/hylam.png"
-// import Pressboard from "../img/pressboard.png"
-// import PaperPressboard from "../img/Paperpaper.png"
-// import Derlin from "../img/derlin.png"
-// import HDPE from "../img/HDPE.png"
-// import Cober from "../img/COBER.png"
-// import woodSheet from "../img/wood sheet.png"
-// import glassEpoxy from "../img/GlassEpoxy.png"
-// import industrialFiberGlass from "../img/industrialFiberGlass.png"
-// import TeflonSheet from "../img/TeflonSheet.png"
-// import UHMWPE from "../img/UHMWPE.png"
-// import SMCsheet from "../img/SMCsheet.png"
-// export default function Product() {
-//     const [show, setShow] = useState(false);
-//     return (
-//         <div>
-//             <div className='headline' id='Products'>Our Products</div>
-//             <div className='rowFlex'>
-//                 <Card name="Fiberglass Epoxy Sheet" material="Fiber glass" size="1220mm x 2440mm, 1mtr x 2 mtr, 1 mtr x 3 mtr" img={fibreGlass} />
-//                 <Card name="FR4 G10 Sheets Fiberglass Epoxy Sheet" material="Epoxy" size="4x4 ft, 4x8 ft, 4x3 ft, 1x3 mtr" img={fibreGlass2} />
-//                 <Card name="G-10 Green Glass Epoxy Sheet" material="Epoxy" size="4x4ft, 4X8ft, 1x2 mtr, 1x3 mtr" img={g10} />
-//             </div>
-//             <div className='rowFlex'>
-//                 <Card name="FR4 Yellow Glass Epoxy Sheet" material="Epoxy" size="0.5 mm to 160 mm 
-// " img={yellowEpoxy} />
-//                 <Card name="G-11 Class Glass Epoxy Green Sheet" material="Epoxy" size="4x4 ft, 4X8 ft, 1x2 mtr, 1x3 mtr" img={g11} />
-//                 <Card name="GPO3 Fiberglass polyester Sheet" material="Polyester" size="8x4 ft" img={GP03} />
-//             </div>
 
-//             <div className={show ? "visible" : "hide"}>
-//                 <div className='rowFlex'>
-//                     <Card name="Fiberglass Sheet FRP Sheet" material="Epoxy" size="0.5 mm to 160 mm 
-// " img={FB} />
-//                     <Card name="Cotton Phenolic Fabric Hylam Sheet & Cotton Phenolic Tubes" material="Cotton Cloth Laminate Sheet" img={Phenolic} />
-//                     <Card name="Commercial Hylam Sheet" material="Polyester" size="4x4 ft 8x4 ft" img={Hylam} />
-//                 </div>
-//                 <div className='rowFlex'>
-//                     <Card name="2.6 Grade Commercial Pressboard" material="Paper" size="1150 x 2200 mm 
-// " img={Pressboard} />
-//                     <Card name="3.1 Grade Pre Compressed PCB Insulation Press Board" material="Paper" size="1150 x 2200 mm" img={PaperPressboard} />
-//                     <Card name="Delrin " material="Thermo plastic polymer" size="1 mtr X2 mtr, 1 mtr X1 mtr X 1.2 mtr X 3 mtr" img={Derlin} />
-//                 </div>
-//                 <div className='rowFlex'>
-//                     <Card name="PP and HDPE sheet" material="HDPE" size="1000mm x 2000mm, 1250mm x 2000mm, 
-// 1220mm x 2440mm, 1000mm x 8000 " img={HDPE} />
-//                     <Card name="Comber Board – Jacquard" material="Rapier Loom - Textile Industries" size="1 mtr x 1 mtr, 160 mm x 1 mtr, 160 x 500 mm" img={Cober} />
-//                     <Card name="Perma Wood/ Densified Laminated Wood Sheets & It's Component" material="Wood" size="1220x1220 mm, 1220x2440 mm, 750x3000mm, 
-// 2000x2000mm" img={woodSheet} />
-//                 </div>
-//                 <div className='rowFlex'>
-//                     <Card name="Glass Epoxy Rod" material="Glass Epoxy" size="1/2 inch" img={glassEpoxy} />
-//                     <Card name="Industrial Fiberglass Epoxy Tube" material="Epoxy" size="2Inch" img={industrialFiberGlass} />
-//                     <Card name="White Teflon Sheet" material="Teflon" size="1000x1000 mm" img={TeflonSheet} />
-//                 </div>
-//                 <div className='rowFlex'>
-//                     <Card name="UHMWPE Sheet" size="1x2 mtr, 1x3 mtr" img={UHMWPE} />
-//                     <Card name="SMC Sheet & Chequered Plate" material="Polyester" size="1 mm to 25 mm" img={SMCsheet} />
-
-//                 </div>
-
-//             </div>
-//             <div className='center'><button className='showMore' onClick={()=>setShow((show)=>!show)}>{show?"show Less":"Show More"}<img src='https://img.icons8.com/?size=20&id=40021&format=png&color=FFFFFF'/></button></div>
-//         </div>
-//     )
-// }
 import React, { useState } from 'react';
 import Card from './ProductCard';
 import "../style/Product.css";
@@ -120,13 +45,17 @@ const products = [
     { name: "UHMWPE Sheet", size: "1x2 mtr, 1x3 mtr", img: UHMWPE },
     { name: "SMC Sheet & Chequered Plate", material: "Polyester", size: "1 mm to 25 mm", img: SMCsheet }
 ];
-
+const jaggeryImg="https://i0.wp.com/florafoods.in/wp-content/uploads/2019/07/Kolhapur-bella-01-.png?fit=800%2C800&ssl=1";
+const FoodProducts=[
+    { name: "jaggery", material: "Fiber glass", size: "1220mm x 2440mm, 1mtr x 2 mtr, 1 mtr x 3 mtr", img: jaggeryImg}
+];
 export default function Product() {
     const [show, setShow] = useState(false);
 
     return (
         <div>
             <div className='headline' id='Products'>Our Products</div>
+            <div className='Subheadline'>1. Industry Supply</div>
             <div className='rowFlex'>
                 {products.slice(0, 3).map((product, index) => (
                     <Card key={index} {...product} />
@@ -174,6 +103,13 @@ export default function Product() {
                     <img src='https://img.icons8.com/?size=20&id=40021&format=png&color=FFFFFF' alt="toggle button" />
                 </button>
             </div>
+          <div>
+            <div className='Subheadline'>2. Food Supply</div>
+               <div className='rowFlex' >
+                            <Card {...FoodProducts} key={index} />
+                        ))
+                    </div>
+          </div>
         </div>
     );
 }
